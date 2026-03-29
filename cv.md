@@ -28,14 +28,18 @@ I am a 3rd-year Electronic Economics student at BSUIR with a deep passion for Fr
 ---
 
 ### Code Example
-*Example of a clean function with validation (based on Codewars logic):*
+Codewars Task: Digital Root (calculates the recursive sum of all digits in a number until a single-digit result is reached)
 
 ```javascript
-function multiply(a, b) {
-  if (typeof a !== 'number' || typeof b !== 'number') {
-    return 0;
-  }
-  return a * b;
+function digitalRoot(n) {
+  if (n < 10) return n;
+  
+  const sum = n
+    .toString()
+    .split('')
+    .reduce((acc, digit) => acc + Number(digit), 0);
+  
+  return digitalRoot(sum);
 }
 ```
 
