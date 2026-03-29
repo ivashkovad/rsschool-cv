@@ -64,9 +64,10 @@ B.S. in Electronic Economics (2023 – Present)
 ---
 
 ### Languages
-**English: C1 Advanced** (EF SET Reading & Listening certified)
-
+- **English: C1 Advanced** (EF SET Reading & Listening certified)
 Proficient in technical documentation and professional communication in international teams.
 
-**Russian / Belarusian:** Native.
+![EF SET Reading & Listening certificate](/resources/efset.png)
+
+- **Russian / Belarusian:** Native.
 
