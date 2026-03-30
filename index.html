@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Darya Ivashkova</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="header-grid">
+      <img src="resources/profile%20photo.jpg" alt="Darya Ivashkova" class="profile-photo">
+      <div class="header-info">
+        <h1>Darya Ivashkova</h1>
+        <p class="subtitle">Junior Frontend Developer</p>
+        <p class="quote"><em>“Bridging the gap between economic data and user-centric web interfaces. Focused on building high-quality, scalable features that drive business value.”</em></p>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <section>
+    <h2>Contact Information</h2>
+    <ul>
+      <li><strong>Telegram:</strong> <a href="https://t.me/callmedashka">@callmedashka</a></li>
+      <li><strong>Email:</strong> <a href="mailto:willow.wkova@icloud.com">willow.wkova@icloud.com</a></li>
+      <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/darya-ivashkova-26049337a/">darya-ivashkova</a></li>
+      <li><strong>GitHub:</strong> <a href="https://github.com/ivashkovad">ivashkovad</a></li>
+      <li><strong>Location:</strong> Minsk, Belarus</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>About me</h2>
+    <p>I am a 3rd-year Electronic Economics student at BSUIR with a deep passion for Frontend Development. My academic background provides me with a unique analytical mindset, allowing me to approach development from both a technical and a business perspective. I am committed to the “quality over quantity” principle, focusing on creating intuitive, bug-free interfaces with extensive user guidance.</p>
+  </section>
+
+  <section>
+    <h2>Tech Skills</h2>
+    <ul>
+      <li><strong>Frontend Development:</strong> HTML5, CSS3, JavaScript, React (in process).</li>
+      <li><strong>Backend & Databases:</strong> Node.js, MongoDB (NoSQL), SQL.</li>
+      <li><strong>Design & UX:</strong> Figma (Prototyping & UI Design), Brand Identity.</li>
+      <li><strong>Analytics & Tools:</strong> Git/GitHub, Agile/Scrum, Microsoft Project, Jira.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Code Example</h2>
+    <p>Codewars Task: Digital Root (calculates the recursive sum of all digits in a number until a single-digit result is reached)</p>
+    <pre><code>function digitalRoot(n) {
+  if (n < 10) return n;
+
+  const sum = n
+    .toString()
+    .split('')
+    .reduce((acc, digit) => acc + Number(digit), 0);
+
+  return digitalRoot(sum);
+}</code></pre>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Full-Stack Movie Library:</h3>
+      <ul>
+        <li>Developed a comprehensive application for managing film records using Node.js, Express, and MongoDB;</li>
+        <li>Implemented RESTful API controllers and optimized database connection logic;</li>
+        <li>Focused on clean code structure and efficient data retrieval;</li>
+        <li><a href="https://github.com/ivashkovad/lab5">Source Code</a></li>
+      </ul>
+    </div>
+    <div class="project">
+      <h3>Interactive Web Application</h3>
+      <ul>
+        <li>Built a modular interactive quiz for web technology testing using JavaScript (ES6+), HTML5, and CSS3;</li>
+        <li>Implemented robust data management using Map for question banks and Set for unique error tracking;</li>
+        <li>Orchestrated asynchronous UI flows and an automated “review mode” through setTimeout and setInterval;</li>
+        <li><a href="https://github.com/ivashkovad/lab1">Source Code</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <section>
+    <h2>Education</h2>
+    <p><strong>Belarusian State University of Informatics and Radioelectronics (BSUIR)</strong></p>
+    <p>B.S. in Electronic Economics (2023 – Present)</p>
+  </section>
+
+  <section>
+    <h2>Languages</h2>
+    <ul>
+      <li><strong>English:</strong> C1 Advanced (EF SET Reading & Listening certified).</li>
+      <li><strong>Russian / Belarusian:</strong> Native.</li>
+    </ul>
+    <img src="/resources/efset.png" alt="EF SET Reading & Listening certificate" class="photo">
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <p>&copy; 2026 Darya Ivashkova</p>
+  </div>
+</footer>
+</body>
+</html>
